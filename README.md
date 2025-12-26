@@ -30,7 +30,9 @@ colorscheme t1-faker
 - `preview.png`: Palette preview
 - `code_example.c` / `code_example.png`: Demo snippet and rendered preview
 
-## Notes
+## Preview
+![Palette](./preview.png)
+![CodeExample](./code_example.png)
 
 - Designed for truecolor terminals (`set termguicolors`).
 - If your terminal is not truecolor, reduce saturation by changing `red2` / `gold0`.
