@@ -1,0 +1,100 @@
+{
+  "$schema": "vscode://schemas/color-theme",
+  "name": "t1-faker",
+  "type": "dark",
+  "colors": {
+    "editor.background": "#0B0B0D",
+    "editor.foreground": "#EDEDED",
+    "editorLineNumber.foreground": "#8A8A92",
+    "editorLineNumber.activeForeground": "#FF3B4D",
+    "editorCursor.foreground": "#FF3B4D",
+    "editor.selectionBackground": "#2A0010",
+    "editor.lineHighlightBackground": "#111115",
+    "editorIndentGuide.background": "#2F2F38",
+    "editorIndentGuide.activeBackground": "#3A3A44",
+    "editorGroup.border": "#1A1A20",
+    "sideBar.background": "#0B0B0D",
+    "activityBar.background": "#0B0B0D",
+    "statusBar.background": "#1A1A20",
+    "statusBar.foreground": "#EDEDED",
+    "statusBar.debuggingBackground": "#B80020",
+    "titleBar.activeBackground": "#0B0B0D",
+    "titleBar.activeForeground": "#EDEDED",
+    "panel.background": "#0B0B0D",
+    "terminal.background": "#0B0B0D",
+    "terminal.foreground": "#C8C8C8",
+    "terminalCursor.foreground": "#FF3B4D"
+  },
+  "tokenColors": [
+    {
+      "scope": [
+        "comment"
+      ],
+      "settings": {
+        "foreground": "#8A8A92",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": [
+        "string"
+      ],
+      "settings": {
+        "foreground": "#2BD67B"
+      }
+    },
+    {
+      "scope": [
+        "constant.numeric",
+        "constant.language.boolean"
+      ],
+      "settings": {
+        "foreground": "#B18CFF"
+      }
+    },
+    {
+      "scope": [
+        "keyword",
+        "storage.type"
+      ],
+      "settings": {
+        "foreground": "#FF3B4D"
+      }
+    },
+    {
+      "scope": [
+        "entity.name.function"
+      ],
+      "settings": {
+        "foreground": "#EDEDED",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": [
+        "variable",
+        "identifier"
+      ],
+      "settings": {
+        "foreground": "#EDEDED"
+      }
+    },
+    {
+      "scope": [
+        "entity.name.type"
+      ],
+      "settings": {
+        "foreground": "#4FA3FF"
+      }
+    },
+    {
+      "scope": [
+        "meta.preprocessor",
+        "keyword.control.import"
+      ],
+      "settings": {
+        "foreground": "#F47725"
+      }
+    }
+  ]
+}
