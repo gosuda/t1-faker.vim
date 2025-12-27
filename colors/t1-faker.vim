@@ -10,12 +10,13 @@ endif
 let g:colors_name = 't1-faker'
 
 " Core palette
-let s:bg0     = '#0B0B0D'   " jersey black
-let s:bg1     = '#111115'
-let s:bg2     = '#1A1A20'
-let s:fg0     = '#EDEDED'   " clean white text
-let s:fg1     = '#C8C8C8'
-let s:fg2     = '#8A8A92'
+" Reference https://www.colorhunter.com/palette/1913059
+let s:bg0     = '#071019'   " based on skt t1 faker grey, dimmed
+let s:bg1     = '#172029'
+let s:bg2     = '#202332'
+let s:fg0     = '#DDDDDF'   " clean white text
+let s:fg1     = '#B8B8BA'
+let s:fg2     = '#8A8A96'
 
 let s:red0    = '#EA002C'   " SK Red (accent)
 let s:red1    = '#B80020'   " deeper crimson (mouse shell shade)
@@ -23,9 +24,9 @@ let s:red2    = '#FF3B4D'   " bright highlight
 
 let s:gold0   = '#C8A951'   " trophy accent
 let s:orange0 = '#F47725'   " SK Orange (rare highlight)
-let s:green0  = '#2BD67B'
-let s:blue0   = '#4FA3FF'
-let s:purple0 = '#B18CFF'
+let s:green0  = '#1BE65B'   " Razor gaming equipments
+let s:blue0   = '#3453C1'   " based on skt t1 faker blue, brightened
+let s:purple0 = '#8C6FB9'
 
 let s:none = 'NONE'
 
