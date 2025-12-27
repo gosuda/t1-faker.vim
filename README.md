@@ -36,7 +36,3 @@ colorscheme t1-faker
 
 - Designed for truecolor terminals (`set termguicolors`).
 - If your terminal is not truecolor, reduce saturation by changing `red2` / `gold0`.
-
-## License
-
-MIT
